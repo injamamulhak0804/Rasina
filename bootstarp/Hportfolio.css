@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+/* navbar */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+/* name */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+/* navbar-brand */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+/* name-description*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+/* sub-tittle */
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+/* Achiments and General */
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun&display=swap');
+/* list */
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota&family=Yomogi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+    /* about-para */
+ *{   margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+    scrollbar-color: rgb(25, 219, 25);
+}
+.navbar-brand{
+    color:#5a5a44 !important;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Bungee Shade', cursive;
+}
+.navbar{
+    background-color: white;
+    position:sticky;
+    top: 0;
+}
+ul{
+    padding-right: 40px;
+}
+ul li{
+    padding-left: 40px;
+    font-family: 'Secular One', sans-serif;
+}
+ul li a{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(0,0,0,0.6) !important;
+}
+ul li a:hover{
+    color: #f8c63a !important;
+}
+.resume:link{
+    text-decoration: none;
+    list-style-type:none;
+}
+.btn-in-resume{
+    padding: 5px 10px  !important;
+}
+.resume:hover{
+    color:#f8c63a  !important;
+}
+.btn:hover{
+    background-color:black !important ;
+}
+.first-name{
+    font-family: 'Fredoka One', cursive;
+    animation: first-name 0.7s  backwards;
+    animation-delay: 1s;
+    transition: 1.2s;
+}
+.name h1{
+    font-size: clamp(50px, 8vw,80px);
+}
+.mark{
+    background-color: transparent;
+    color: #f1bc29;
+    font-weight: 500;
+}
+.Home{
+    padding-top: 200px;
+    
+}
+.name-description{
+    padding-top: 50px;
+    line-height: 40px;
+    word-spacing: 3px;
+    max-width: 600px;
+    font-family: 'Roboto Mono', monospace;
+    animation: name-description 0.7s  backwards;
+    animation-delay: 1.2s;
+    transition: 1.2s;
+}
+.mark-rasina{
+    font-size: clamp(55px,8vw,100px);
+    font-family: 'Allura', cursive;
+}
+.person-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.img{
+ width: 100%;
+ height: 130%;   
+}
+.background{
+    padding-top: 50px;
+}
+
+            /* Animations */
+.item1{
+    animation: item1 0.3s  ease-in;
+ }
+ .item2{
+     animation: item2 0.4s ease-in;
+ 
+ }
+ .item3{
+    animation: item3 0.5s  ease-in;
+ }
+ .item4{
+    animation: item4 0.6s  ease-in;
+ }
+ .item5{
+    animation: item5 0.7s  ease-in;
+ }
+ .item6{
+    animation: item6 0.8s  ease-in;
+ }
+ .item7{
+    animation: item7 0.9s  ease-in;
+ }
+ .img{
+    animation: img 1.5s  ease-in;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+ }
+
+
+
+ 
+@keyframes item1 {
+    0% {
+        opacity: 0;
+        transform: translateY(-25px);
+    }
+    50%{
+        opacity: 0.10;
+        transform: translateY(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+
+    }
+}
+@keyframes item2 {
+    from {
+        opacity: 0;
+        transform: translateY(-25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+
+    }
+}
+@keyframes item3 {
+    from {
+        opacity: 0;
+        transform: translateY(-25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+
+    }
+}
+@keyframes item4 {
+    from {
+        opacity: 0;
+        transform: translateY(-25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+
+    }
+}
+@keyframes item5 {
+    from {
+        opacity: 0;
+        transform: translateY(-25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+
+    }
+}
+@keyframes item6 {
+    from {
+        opacity: 0;
+        transform: translateY(-25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+
+    }
+}
+@keyframes item7 {
+    from {
+        opacity: 0;
+        transform: translateY(-25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+
+    }
+}
+
+@keyframes first-name  {
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes name-description  {
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+   
+}
+@keyframes  img {
+    from{
+        opacity: 0;
+        transform: translateY(25px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+   
+}
+
+
+        /* About-Me */
+.About-Me{
+    padding-top: 400px;
+    padding-bottom: 400px;
+}
+.about-heading{
+    color: #fcbf56;
+    padding-bottom: 60px;
+    font-family: 'Rubik Dirt', cursive;
+}
+.about-para{
+    margin: 0 auto;
+    max-width: 650px;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    word-spacing: 5px;
+    line-height: 50px;
+    text-align: center;
+}
+
+
+    /* Skills */
+.skills{
+    padding-top: 100px;
+    padding-bottom: 400px;
+}
+
+.skills-sub-heading{
+    font-family: 'Rampart One', cursive;
+}
+.skills-sub-heading > h2{
+    display: inline;
+    width: 130px;
+}
+.list-group-flush{
+    padding-top: 70px;
+
+}
+.skill-border{
+    border-bottom: 3px solid red;
+    margin: 0 auto;
+}
+.list-items{
+    list-style-image: url("../bootstarp/bootstrap-5.1.3-dist/images-in-bootstarp/right-arrow\ \(2\).png");
+    padding-bottom: 10px;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    padding-left: 0;
+    font-size: 15px;
+    padding-top: 20px;
+}
+@media (max-width:900px) {
+    .skills-sub-heading{
+        padding-bottom: 70px;
+    }
+    .skills{
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
+
+    /* Education */
+.Education{
+    /* padding-bottom: 50px; */
+    margin: 0 auto;
+}
+.row-education-outline{
+    max-width: 500px;
+    min-height: 1000px;
+    background-color: rgb(232, 236, 240);
+    margin: 0 auto;
+    border-radius: 1.5%;
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    
+}
+.college-padding{
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    padding-left: 30px;
+    transition: 1.2s;
+}
+.align-in-eduacation{
+    line-height: 20px;
+}
+.clg-name{
+    padding-bottom:0px;
+    font-family: 'Bellota', cursive;
+/* font-family: 'Yomogi', cursive; */
+}
+.calender{
+   position: relative;
+   top: -8px;
+}
+.list-items1{
+    list-style-image: url("../bootstarp/bootstrap-5.1.3-dist/images-in-bootstarp/right-arrow\ \(2\).png");
+}
+.border-bottom{
+    border-bottom: 2px rgb(20, 19, 19) solid !important;
+}
+.college-padding:hover{
+    box-shadow:rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transition: 1.2s;
+}
+
+
+    /* Experience */
+.Experience{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.list-items2{
+    list-style-image: url("../bootstarp/bootstrap-5.1.3-dist/images-in-bootstarp/right-arrow\ \(2\).png");
+    padding-bottom: 10px;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-size: 15px;
+}
+.list-group-in-experi{
+    padding-left: 200px;
+    padding-bottom: 100px;
+    padding-top: 30px;
+    transition: 1.2s;
+    max-width: 500px;
+}
+.list-group-in-experi:hover{
+    transform:rotateY(20deg);
+    transition: 1.2s;
+    cursor:default;
+}
+.experience-sub-heading{
+    font-family: 'Rampart One', cursive;
+}
+
+
+/* Contact Me */
+.Contact{
+    padding-bottom: 200px;
+    margin: 0 auto;
+}
+.contact-sub-para{
+    max-width: 600px;
+    margin: 0 auto;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: 'Fredoka One', cursive;
+    word-spacing: 10px;
+}
+.btn-in-contact a:link{
+    text-decoration: none;
+    color: #f1bc29 !important;
+}
+.btn-in-contact{
+    border: 2px solid #f1bc29;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+.email{
+    font-family: 'Secular One', sans-serif;
+}
+.email-in-footer{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.9);
+    padding-bottom: 40px;
+}
+.email-in-footer:hover{
+    color: #f8c63a;
+}
+    /* media Screen */
+
+@media (max-width:770px) {
+    .About-Me{
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+    .skills{
+        padding-bottom: 100px;
+    }
+    .navbar-nav{
+        text-align: center;        
+    }
+    .nav-link{
+        padding-bottom: 20px;
+    }
+}
+
+/* 
+.name {
+    font-size: clamp(40px, 8vw,95px);
+    color: #ccd6f6;
+    font-family: 'Monoton', cursive;
+    animation: name 0.7s  forwards;
+    animation-delay: 0.9s;
+    transition: 1s;
+    animation-fill-mode: backwards;
+}
+
+.build {
+    padding-top: 20px;
+    color: #7d87a5;
+    font-size: clamp(20px, 8vw, 39px);
+    animation: build 0.8s  forwards;
+    animation-delay: 1s;
+    transition: 1s;
+    animation-fill-mode: backwards;
+}
+
+.smallpara {
+    padding-top: 30px;
+    width: fit-content;
+    font-family: 'Nunito', sans-serif;
+    color: #717c98;
+    font-size: 17px;
+    line-height: 25px;
+    animation: smallpara 0.7s  forwards;
+    animation-delay: 1.1s;
+    transition: 1s;
+    animation-fill-mode: backwards;
+} */
